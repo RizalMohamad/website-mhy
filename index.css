@@ -1,0 +1,401 @@
+:root {
+  --pr-color: #8d1638;
+}
+
+html {
+  padding: 0;
+  margin: 0;
+}
+
+body {
+  font-family: "DM Sans", sans-serif;
+  background: linear-gradient(120deg, var(--pr-color) 0%, #c42032 100%);
+}
+
+/* NAVBAR */
+.navbar {
+  z-index: 1000;
+  padding-left: 32px;
+  padding-right: 32px;
+  background-color: var(--pr-color);
+  box-shadow: 0 0.5px 10px rgb(67, 67, 67);
+}
+
+.navbar-brand {
+  font-weight: 700;
+  font-size: 18px;
+}
+
+.nav-link {
+  font-weight: 500;
+  color: #fff;
+  font-size: 15px;
+}
+
+.navbar-menu-list {
+  display: flex;
+  justify-content: end;
+  width: 100%;
+}
+
+.navbar-button {
+  width: 110px;
+  height: 40px;
+  background-color: transparent;
+  color: #fff;
+  border: 2px solid white;
+  border-radius: 5px;
+  font-size: 15px;
+  font-weight: 700;
+}
+
+/* Navbar Color */
+/* .nav-color {
+  background-color: var(--pr-color);
+  box-shadow: 0 0.2px 5px rgb(189, 188, 188);
+  transition: all ease-in-out 0.3s;
+}
+
+.bg-transparent {
+  transition: all ease-in-out 0.3s;
+} */
+
+/* HERO */
+#hero {
+  /* height: 100vh; */
+  width: 100%;
+  /* max-height: 100%; */
+}
+
+.hero-c {
+  height: 100vh;
+}
+
+.hero-tagline h4 {
+  color: #fff;
+  font-weight: 700;
+}
+
+.hero-tagline h1 {
+  color: #fff;
+  font-size: 45px;
+  font-weight: 700;
+}
+
+.hero-tagline p {
+  color: #fff;
+}
+
+.hero-list {
+  list-style: none;
+  color: #fff;
+  /* margin-top: 20px; */
+  padding-left: 0;
+}
+
+.button-lg-primary {
+  width: 280px;
+  height: 50px;
+  background-color: #ff9800;
+  color: #fff;
+  border: none;
+  border-radius: 5px;
+  font-size: 15px;
+  font-weight: 700;
+  /* margin-top: 30px; */
+}
+
+/* TENTANG KAMI */
+#about {
+  background-color: #fff;
+  /* height: 100vh; */
+  padding: 40px 0;
+}
+
+#about h2 {
+  font-size: 48px;
+  font-weight: 700;
+  color: #000;
+}
+
+.about-content {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+}
+
+.about-content h3 {
+  color: var(--pr-color);
+  font-weight: 700;
+}
+
+.about-content p {
+  font-weight: 500;
+  text-align: justify;
+}
+
+.about-gambar {
+  display: flex;
+  justify-content: end;
+}
+
+.about-img {
+  width: 80%;
+  height: 80%;
+}
+
+.about-img img {
+  width: 400px;
+  height: 400px;
+}
+
+.about-list {
+  list-style: none;
+  padding-left: 0;
+  font-weight: 500;
+}
+
+/* LAYANAN */
+#layanan {
+  background-color: #efefef;
+  /* height: 100vh; */
+  padding: 40px 0 0 0;
+}
+
+#layanan h2 {
+  font-weight: 700;
+  color: #000;
+}
+
+.sub-title {
+  font-size: 16px;
+  color: #000;
+}
+
+.carousel-inner {
+  margin-top: 5px;
+  /* padding: 1em; */
+}
+
+.card {
+  margin: 0 0.7em;
+}
+
+.carousel-control-prev,
+.carousel-control-next {
+  background-color: var(--pr-color);
+  width: 40px;
+  height: 40px;
+  border-radius: 50%;
+  top: 50%;
+  transform: translateY(-50%);
+}
+
+.card-layanan {
+  width: 100%;
+  height: 390px;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  border-radius: 5px;
+  background-color: #fff;
+  box-shadow: 5px 5px 5px 0 rgba(0, 0, 0, 0.05);
+  transition: all 0.2s ease-in;
+}
+
+.card-layanan:hover {
+  background-color: #c42032;
+  transition: all 0.2s ease-in;
+}
+
+.card-layanan .img-wrapper {
+  max-width: 100%;
+  height: 13em;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.card-layanan .img-wrapper img {
+  max-height: 100%;
+}
+
+/* .circle-icon {
+  width: 80px;
+  height: 80px;
+  background-color: #ff9800;
+  border-radius: 50%;
+} */
+
+.card-layanan h5 {
+  color: #000;
+  font-size: 22px;
+}
+
+.card-layanan p {
+  color: #000;
+  font-size: 14px;
+}
+
+.btn-detail {
+  width: 48%;
+  height: 40px;
+  background-color: #ff9800;
+  color: #fff;
+  border: none;
+  border-radius: 5px;
+  font-size: 15px;
+  font-weight: 700;
+  margin-top: 20px;
+}
+
+.btn-order {
+  width: 48%;
+  height: 40px;
+  background-color: #ff9800;
+  color: #fff;
+  border: none;
+  border-radius: 5px;
+  font-size: 16px;
+  font-weight: 700;
+  margin-top: 20px;
+}
+
+/* TESTIMONI */
+#testimoni {
+  background-color: #efefef;
+  /* height: 100vh; */
+  padding: 40px 0 30px 0;
+}
+
+#testimoni h3 {
+  font-weight: 700;
+  color: #000;
+}
+
+.card-testimoni {
+  width: 90%;
+  margin: 0 auto;
+  box-shadow: 5px 5px 5px 0 rgba(0, 0, 0, 0.05);
+}
+
+.card-testimoni-header {
+  background-color: #eeeeee;
+  padding-bottom: 0;
+  display: flex;
+  justify-content: space-between;
+}
+
+.card-pemesanan {
+  width: 100%;
+  height: 270px;
+  border-radius: 5px;
+  background-color: #fff;
+  padding: 40px;
+  box-shadow: 5px 5px 5px 0 rgba(0, 0, 0, 0.05);
+  transition: all 0.2s ease-in;
+}
+
+.card-pemesanan:hover {
+  background-color: #c42032;
+  color: #fff;
+  box-shadow: -5px -5px 7px 3px rgba(0, 0, 0, 0.05), 5px 5px 7px 3px rgba(0, 0, 0, 0.05);
+  transition: all 0.2s ease-in;
+}
+
+/* LOKER */
+#loker {
+  background-color: #fff;
+  /* height: 100vh; */
+  padding: 40px 0;
+}
+
+#loker h2 {
+  font-weight: 700;
+  color: #000;
+}
+
+.loker-judul h4 {
+  margin-top: 100px;
+  font-weight: 600;
+}
+
+.button-loker {
+  width: 300px;
+  height: 65px;
+  background-color: #ff9800;
+  color: #fff;
+  border: none;
+  border-radius: 5px;
+  font-size: 18px;
+  font-weight: 700;
+  margin: 30px auto;
+}
+
+/* FOOTER */
+#footer {
+  width: 100%;
+  /* height: 100vh; */
+  padding: 40px 0 15px 0;
+  background: var(--pr-color);
+  color: #fff;
+}
+
+.footer-brand {
+  font-weight: 700;
+  font-size: 18px;
+  color: inherit;
+  text-decoration: none;
+}
+.footer-deskripsi {
+  width: 90%;
+  text-align: justify;
+  padding: 15px 50px 0 0;
+}
+
+.footer-list ul {
+  list-style: none;
+  padding: 20px 0 0 0;
+}
+
+.footer-list a {
+  text-decoration: none;
+  color: inherit;
+}
+
+.footer-alamat p {
+  padding: 20px 0 0 0;
+}
+
+.copyright p {
+  margin: 0 auto;
+}
+
+.wa-btn {
+  position: fixed;
+  z-index: 999;
+  right: 2%;
+  bottom: 4%;
+  color: #fff;
+  font-weight: 600;
+  text-decoration: none;
+  background-color: #25d366;
+  padding: 4px 15px;
+  border-radius: 15px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.wa-icon {
+  margin-right: 4px;
+  background-color: #25d366;
+  border-radius: 50%;
+  height: 57px;
+  width: 57px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  position: absolute;
+  right: 86.8%;
+}
