@@ -1,0 +1,179 @@
+@media screen and (min-width: 992px) {
+  .carousel-layanan {
+    display: flex;
+  }
+  .carousel-layanan-item {
+    display: block;
+    margin-right: 0;
+    flex: 0 0 33.333333%;
+  }
+}
+
+@media screen and (max-width: 1200px) {
+  .footer-deskripsi {
+    width: 95%;
+  }
+}
+
+@media screen and (max-width: 991px) {
+  .navbar-menu {
+    display: block;
+  }
+
+  .btn-toggle{
+    border: none;
+  }
+  
+  .btn-toggle:focus {
+    box-shadow: none !important;
+  }
+
+  .navbar-menu-list {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    height: 100vh;
+  }
+
+  .navbar-list {
+    order: -1;
+  }
+
+  .navbar-nav {
+    margin-top: 10px;
+    width: 100%;
+  }
+
+  .navbar-button {
+    width: 95%;
+    margin-bottom: 65px;
+  }
+
+  .hero-tagline {
+    text-align: center;
+  }
+
+  .hero-tagline h4 {
+    font-size: 24px;
+  }
+
+  .hero-tagline h1 {
+    font-size: 38px;
+  }
+
+  .hero-list {
+    width: 30%;
+    margin: 2px auto;
+  }
+  .hero-list li {
+    text-align: left;
+  }
+
+  .btn-detail,
+  .btn-order {
+    width: 30%;
+  }
+
+  #about h2,
+  #layanan h2 {
+    font-size: 36px;
+  }
+
+  #layanan h3,
+  #testimoni h3 {
+    font-size: 24px;
+  }
+
+  .card-pemesanan {
+    margin: 15px 2px;
+  }
+
+  .card-testimoni {
+    width: 100%;
+  }
+
+  .footer-info {
+    display: flex;
+    flex-direction: column;
+  }
+
+  .footer-deskripsi {
+    width: 100%;
+    padding: 15px 5px 0 0;
+  }
+
+  .footer-list h4,
+  .footer-alamat h4 {
+    margin-top: 30px;
+  }
+  .footer-list ul,
+  .footer-alamat p {
+    padding: 0;
+  }
+}
+
+@media screen and (max-width: 768px) {
+  .hero-tagline h4 {
+    font-size: 20px;
+  }
+
+  .hero-tagline h1 {
+    font-size: 32px;
+  }
+
+  .hero-list {
+    width: 50%;
+    margin: 2px auto;
+  }
+
+  .carousel-control-prev,
+  .carousel-control-next {
+    display: none;
+  }
+
+  .btn-detail,
+  .btn-order {
+    width: 40%;
+  }
+
+  .card-testimoni-header {
+    flex-direction: column-reverse;
+  }
+}
+
+@media screen and (max-width: 576px) {
+  .hero-list {
+    width: 60%;
+    margin: 2px auto;
+  }
+
+  .about-gambar {
+    display: flex;
+    justify-content: end;
+  }
+
+  .about-img img {
+    width: 300px;
+    height: 300px;
+  }
+
+  .wa-btn {
+    background-color: transparent;
+  }
+
+  .wa-title {
+    display: none;
+  }
+
+  .wa-icon {
+    right: 2%;
+    bottom: 2%;
+  }
+}
+
+@media screen and (max-width: 400px) {
+  .about-img img {
+    width: 250px;
+    height: 250px;
+  }
+}
