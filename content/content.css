@@ -1,0 +1,196 @@
+:root {
+  --pr-color: #8d1638;
+}
+
+/* ----------------------------- INI HALAMAN TENTANG KAMI -------------------------------------------*/
+#about-hero {
+  height: 60vh;
+  width: 100%;
+  background-image: url(../asset/tentangkami-bg.webp);
+  background-position: 0 60%;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+
+#about-hero h2 {
+  color: #fff;
+  font-weight: 600;
+}
+
+#about-deskripsi {
+  background-color: #fff;
+  padding: 100px 0 0 0;
+}
+
+.about-des-kata {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+}
+
+.about-des-kata h3 {
+  font-weight: 600;
+}
+
+.about-des-kata p {
+  text-align: justify;
+}
+
+.about-des-gambar {
+  display: flex;
+  justify-content: center;
+}
+
+.about-des-img {
+  width: 80%;
+  height: 80%;
+}
+
+.about-des-img img {
+  width: 500px;
+  height: 400px;
+  border-radius: 50px 0 50px 0;
+  box-shadow: 20px 20px 0 var(--pr-color);
+}
+
+#about-visi {
+  background-color: #fff;
+  padding: 100px 0 0 0;
+}
+
+.about-visi-gambar {
+  display: flex;
+  justify-content: center;
+}
+
+/* .about-visi-img {
+  width: 80%;
+  height: 80%;
+} */
+
+.about-visi-img img {
+  width: 500px;
+  height: 400px;
+  border-radius: 50px 0 50px 0;
+  box-shadow: 20px 20px 0 var(--pr-color);
+}
+
+.about-visi-kata {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+}
+
+.about-visi-kata h3 {
+  font-weight: 600;
+}
+
+.about-visi-kata p {
+  text-align: justify;
+}
+
+#about-misi {
+  background-color: #fff;
+  padding: 100px 0;
+}
+
+.about-misi-kata {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+}
+
+.about-misi-kata h3 {
+  font-weight: 600;
+}
+
+.about-misi-list {
+  padding-left: 0;
+  list-style: none;
+}
+
+.about-misi-list span {
+  margin-right: 5px;
+  text-align: justify;
+}
+
+.about-misi-gambar {
+  display: flex;
+  justify-content: center;
+}
+
+.about-misi-img {
+  width: 80%;
+  height: 80%;
+}
+
+.about-misi-img img {
+  width: 500px;
+  height: 400px;
+  border-radius: 50px 0 50px 0;
+  box-shadow: 20px 20px 0 var(--pr-color);
+}
+
+/* ----------------------------- INI HALAMAN LAYANAN -------------------------------------------*/
+#layanan-hero {
+  height: 60vh;
+  width: 100%;
+  background-image: url(../asset/tentangkami-bg.webp);
+  background-position: 0 60%;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+
+#layanan-hero h2 {
+  color: #fff;
+  font-weight: 600;
+}
+
+#layanan-hero span {
+  color: #fff;
+  font-weight: 500;
+}
+
+/* ----------------------------- INI HALAMAN LOWONGAN KERJA -------------------------------------------*/
+#lowongan-hero {
+  height: 60vh;
+  width: 100%;
+  background-image: url(../asset/tentangkami-bg.webp);
+  background-position: 0 60%;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+
+#lowongan-hero h2 {
+  color: #fff;
+  font-weight: 600;
+}
+
+#lowongan-syarat {
+  background-color: #fff;
+  padding: 50px 0;
+}
+
+#loongan-syarat p {
+  text-align: justify;
+}
+
+#lowongan-syarat ul {
+  list-style: none;
+}
+
+.lowongan-syarat-btn {
+  width: 180px;
+  height: 50px;
+  background-color: #ff9800;
+  margin: 10px 8px;
+  color: #fff;
+  border: none;
+  border-radius: 5px;
+  font-size: 15px;
+  font-weight: 700;
+}
+
+#layanan-content {
+  background-color: #edf4fc;
+}
